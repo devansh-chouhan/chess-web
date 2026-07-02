@@ -1,6 +1,6 @@
 import { Chess } from "chess.js";
-import { GAME_OVER, INIT_GAME, MOVE } from "./messages.js";
 import type { WebSocket } from "ws";
+import { GAME_OVER, INIT_GAME, MOVE } from "./message.js";
 
 export class Game {
     public player1: WebSocket;
